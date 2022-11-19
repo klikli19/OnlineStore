@@ -2,5 +2,5 @@
 GET  http://localhost:8080/store/order/get
 
 ### Добавить покупку
-GET http://localhost:8080/store/order/add?id=11&&
+GET http://localhost:8080/store/order/add?id=11те
 Content-Type: application/json

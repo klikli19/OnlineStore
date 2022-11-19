@@ -16,14 +16,14 @@ public class StoreController {
         this.storeService = storeService;
     }
 
-    @GetMapping("/store/order/get")
+    @GetMapping("/order/get")
     public List<Item> getAllItems() {
-        return this.storeService.getAllItems();
+        return storeService.getAllItems();
     }
 
-    @GetMapping("/store/order/add")
+    @GetMapping("/order/add")
     public List addItems(@RequestParam ("id") List <Integer> id){
-        return this.storeService.addItem(id);
+        return storeService.addItem(id);
     }
 
 

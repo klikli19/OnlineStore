@@ -1,6 +1,7 @@
 package service;
 
 import model.Item;
+import org.springframework.context.annotation.Scope;
 import org.springframework.stereotype.Service;
 import org.springframework.web.context.annotation.SessionScope;
 import repository.Basket;
@@ -11,7 +12,7 @@ import java.util.List;
 
 
 @Service
-@SessionScope
+@Scope("Prototype")
 public class StoreService {
     private final Basket basket;
 

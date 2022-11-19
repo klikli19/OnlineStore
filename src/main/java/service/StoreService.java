@@ -12,7 +12,6 @@ import java.util.List;
 
 
 @Service
-@Scope("Prototype")
 public class StoreService {
     private final Basket basket;
 

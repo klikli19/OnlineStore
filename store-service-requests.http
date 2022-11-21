@@ -1,0 +1,6 @@
+### Получить весь список
+GET  http://localhost:8080/store/order/get
+
+### Добавить покупку
+GET http://localhost:8080/store/order/add?id=14&id=188
+Content-Type: application/json
